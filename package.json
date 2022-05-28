@@ -6,6 +6,9 @@
     "ora": "^6.1.0",
     "readline": "^1.3.0"
   },
+  "scripts": {
+    "deploy": "node --experimental-json-modules scripts/deploy.js"
+  },
   "type": "module",
   "devDependencies": {
     "eslint": "^8.11.0"
